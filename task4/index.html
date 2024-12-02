@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Request</title>
+    <link rel="stylesheet" href="/task4/style.css">
+</head>
+<body>
+    <form>
+        <div class="container"> 
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend>General Information</legend>
+            <label for="arrival-date">Arrival date:</label>
+            <input type="date" id="arrival-date" name="arrival-date"><br>
+            <label for="nights">Nights:</label>
+            <input type="text" id="nights" name="nights"> <span class="error"></span><br>
+            <label for="adults">Adults:</label>
+            <select id="adults" name="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br>
+            <label for="children">Children:</label>
+            <select id="children" name="children">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Room type:</label>
+            <input type="radio" id="standard" name="room-type" value="standard">
+            <label for="standard">Standard</label>
+            <input type="radio" id="business" name="room-type" value="business">
+            <label for="business">Business</label>
+            <input type="radio" id="suite" name="room-type" value="suite">
+            <label for="suite">Suite</label><br>
+            <label>Bed type:</label>
+            <input type="radio" id="king" name="bed-type" value="king">
+            <label for="king">King</label>
+            <input type="radio" id="double-double" name="bed-type" value="double-double">
+            <label for="double-double">Double Double</label><br>
+            <input type="checkbox" id="smoking" name="smoking">
+            <label for="smoking">Smoking</label>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" ><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" > <span class="error"></span><br>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" > <span class="error"></span>
+        </fieldset>
+        <button type="submit">Submit Request</button>
+        <p>&copy; My Tran N01690566</p>
+    </form>
+</div>
+   
+<script src="/task4/app.js"></script>
+</body>
+</html>

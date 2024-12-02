@@ -1,0 +1,20 @@
+form {
+    width: 50%;
+}
+.container {
+    padding: 20px;
+    border: 2px solid purple;
+}
+fieldset {
+    margin-bottom: 15px;
+}
+legend {
+    color: blue;
+    font-weight: 700;
+}
+.error {
+    color: red;
+}
+input {
+    margin-bottom: 7px;
+}

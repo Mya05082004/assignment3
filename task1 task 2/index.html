@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/task1 task 2/style.css">
+    
+</head>
+<body>
+    <!-- task1 -->
+    <p>&copy;My Tran N01690566</p>
+    <form action="" id="calculator">
+        <h1>Sales Tax Calculator</h1>
+        <p>Enter Subtotal and Tax Rate and click "Calculate"</p>
+
+        <div class="container">
+            <label for="subtotal">Subtotal:</label>
+            <input type="number" id="subtotal" class="subtotal" step="0.01">
+
+            <label for="taxRate">Tax Rate:</label>
+            <input type="number" id="taxRate" class="taxRate" step="0.01" >
+
+            <label for="salesTax">Sales Tax:</label>
+            <input type="number" id="salesTax" class="salesTax" disabled>
+
+            <label for="total">Total:</label>
+            <input type="number" id="total" class="total" disabled>
+        
+           <div></div>
+            <div class="button">
+                <button id="buttonCal" type="button">Calculate</button>
+                <button id="buttonClear" type="button">Clear</button>
+            </div>
+        
+    </div>
+    </form>
+
+
+    <!-- task2 -->
+     <form action="" itemref="changeCalculator">
+        <h1>Change Calculator</h1>
+        <div class="container">
+
+        
+        <label for="change">Enter amount of change due (0-99):</label>
+        <input type="number" id="change" class="change">
+        
+        <label for="quarters">Quarters:</label>
+        <input type="number" id="quarters" class="quarters" disabled>
+        
+        <label for="dimes">Dimes:</label>
+        <input type="number"id="dimes" class="dimes" disabled>
+        
+        <label for="nickles">Nickels:</label>
+        <input type="number" id="nickels" class="nickels" disabled>
+        
+        <label for="pennies">Pennies:</label>
+        <input type="number"id="pennies" class="pennies" disabled>
+
+        <div class="button">
+
+            <button id="buttonCalculate" type="button">Calculate</button>
+        </div>
+     </form>
+    </div>
+
+    
+<script src="/task1 task 2/app.js">
+
+</script>
+</body>
+</html>
